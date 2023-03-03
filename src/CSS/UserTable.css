@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #333333;
+    background: #f6f9fc;
+}
+
+.main{
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 70px;
+    height: 90%;
+}
+
+
+
+.divTabla{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.asd{
+    margin-top: 100px;
+}
+
+.dlink {
+    text-decoration: none !important;
+    color: #243c47 !important;
+}
+
+.data-table-extensions-filter {
+    border: 1px solid #024d70;
+    border-radius: 8px;
+    padding: 3px 5px;
+    width: 70%;
+}
+
+.first {
+    padding-right: 100px !important;
+}
+
+.filter-text {
+    border: none !important;
+    width: 80%;
+    
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.btnActualizarTabla , .btnAgregarUsuario{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 20px;
+    color:#ffffff;
+    background-color: #024d70;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btnActualizarTabla{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 20px;
+    color:#ffffff;
+    background-color: #5ABB01;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btnAgregarUsuario{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 20px;
+    color:#ffffff;
+    background-color: #0069D9;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btnDescargar{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 20px;
+    color:#ffffff;
+    background-color: #00A7E4;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btnDescargtarCSV{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 20px;
+    color:#ffffff;
+    background-color: #31BE7D;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.btnDescargtarPDF{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 20px;
+    color:#ffffff;
+    background-color: #F21F15;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btnCancelar{
+    border-color: #333;
+}

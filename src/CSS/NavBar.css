@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Work+Sans:300,400,700,900");
+* {
+  outline-width: 0;
+  font-family: "Montserrat" !important;
+}
+
+body {
+  background: #ffffff ;
+  font-family: "Work Sans" !important;
+
+}
+
+.btnA{
+  border: none;
+    color: #016390;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: block;
+  background: #ffffff;
+  z-index: 1;
+}
+
+.navbar>.brand {
+  display: inline-block;
+  padding: 1.1em;
+  text-decoration: none;
+  color: #016390;
+  font-weight: bold;
+}
+
+.navbar label {
+  display: inline-block;
+  float: right;
+  padding: 0.8em;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.navbar>input[type="checkbox"] {
+  display: none;
+}
+
+.navbar>input[type="checkbox"]:checked~.menu-items {
+  max-height: 100vh;
+  margin: 1em 0 0 0;
+}
+
+.navbar .menu-items {
+  display: block;
+  width: 100%;
+  list-style: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.25s ease;
+}
+
+.navbar .menu-items li {
+  display: block;
+}
+
+.navbar .menu-items li a {
+  text-decoration: none;
+  color: #016390;
+  display: block;
+  padding: 0.8em;
+}
+
+.navbar .menu-items li a+ul {
+  max-height: 0;
+  background: #eeeeee;
+  transition: all 0.25s;
+  overflow: hidden;
+}
+
+.navbar .menu-items li a+ul li {
+  display: block;
+}
+
+.navbar .menu-items li a+ul li a {
+  color: #016390;
+}
+
+.navbar .menu-items li a+ul li a:hover {
+  /* background: #015379; */
+}
+
+.navbar>.brand:hover,
+.navbar label:hover,
+.navbar .menu-items li:hover {
+  /* background: #1f2224; */
+}
+
+.navbar>.brand:hover,
+.navbar label:hover,
+.navbar .menu-items li:hover,
+.navbar>.brand:hover a,
+.navbar label:hover a,
+.navbar .menu-items li:hover a {
+  color: #016390;
+}
+
+.navbar>.brand:hover ul,
+.navbar label:hover ul,
+.navbar .menu-items li:hover ul {
+  max-height: 1000px;
+}
+
+.navbar > .menu-items  > .btnCerrarsesion {
+  float: right;
+}
+
+
+.btnCerrarsesion{
+  background: transparent;
+  border: none;
+  color : #016390;
+  font-size: 1em;
+  cursor: pointer;
+}
+.toggle{
+  color : #016390;
+}
+
+.logo{
+  max-width: 150px;
+  margin-left: 10px;
+  /* max-height: 100%; */
+}
+
+@media screen and (min-width: 768px) {
+  .navbar label {
+    display: none;
+  }
+  .toggle{
+    color : #016390;
+  }
+  .navbar .menu-items {
+    width: auto;
+    margin: 0 !important;
+    display: inline-block;
+    overflow: visible;
+  }
+
+  .navbar .menu-items>li:hover>a {
+    /* color: #f33; */
+  }
+
+  .navbar .menu-items li {
+    display: inline-block;
+    position: relative;
+    border-bottom: 3px solid transparent;
+  }
+
+  .navbar .menu-items li ul {
+    position: absolute;
+    min-width: 100%;
+    top: 100%;
+    margin-top: 3px;    
+  }
+
+  .navbar .menu-items li ul li {
+    white-space: nowrap;
+  }
+
+  .navbar .menu-items li ul li a {
+    padding: 0.8em 1.6em;
+  }
+
+  .navbar .menu-items li:hover {
+    background: none;
+    border-color: #016390;
+  }
+}
