@@ -1,7 +1,7 @@
 
 //const IP = "192.168.1.72"
 //const IP = "192.168.3.76"
-const IP = "127.0.0.1"
+const IP = "3.16.215.227"
 //const IP = "192.168.1.97"
 const PORT = "3001"
 
